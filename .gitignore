@@ -1,0 +1,23 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Medical image datasets and generated preprocessing outputs
+images/
+preprocessed_data/
+crop_metadata.json
+
+# Local configuration
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Deployment metadata and OS files
+.vercel/
+.DS_Store
+Thumbs.db
+
