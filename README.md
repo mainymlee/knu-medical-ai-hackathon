@@ -131,6 +131,7 @@ score = brightness + 0.8 × local_contrast + 0.6 × vessel_density
 ├── preprocessing.py       # 대회 당시 안저 이미지 전처리
 ├── docs/
 │   ├── competition-poster.png
+│   ├── demo-video.mp4
 │   ├── hackathon-presentation.pdf
 │   ├── preprocessing-analysis.pdf
 │   └── results/            # 초기·최종 모델 평가 그래프
@@ -138,6 +139,10 @@ score = brightness + 0.8 × local_contrast + 0.6 × vessel_density
 ```
 
 원본 의료 이미지와 전처리 결과는 데이터 사용 및 재배포 조건을 고려해 Git 저장소에서 제외합니다.
+
+## 데모 영상
+
+[의료 AI 해커톤 제출 프로젝트 데모 영상 보기](docs/demo-video.mp4)
 
 ## 실행 방법
 
