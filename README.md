@@ -7,7 +7,9 @@
 - 실제 제출 사이트: <https://webpage-qxuaq8izu-knu-med.vercel.app/>
 - 대회: 2026 KNU 초급 몰입형 의료AI 해커톤
 - 주최: 강원대학교 의과대학·의학전문대학원
-- 수상: 우수상
+- 수상: [우수상](docs/excellence-award-certificate.pdf)
+- 과정 이수: [Teachable Machine 활용 AI 의료 시스템 만들기](docs/medical-ai-course-certificate.pdf)
+- 해커톤 이수: [이수증](docs/hackathon-completion-certificate.pdf)
 
 > 이 프로젝트는 연구·교육용 프로토타입이며 의료 진단이나 전문 의료인의 판단을 대체하지 않습니다.
 
@@ -132,7 +134,10 @@ score = brightness + 0.8 × local_contrast + 0.6 × vessel_density
 ├── docs/
 │   ├── competition-poster.png
 │   ├── demo-video.mp4
+│   ├── excellence-award-certificate.pdf
+│   ├── hackathon-completion-certificate.pdf
 │   ├── hackathon-presentation.pdf
+│   ├── medical-ai-course-certificate.pdf
 │   ├── preprocessing-analysis.pdf
 │   └── results/            # 초기·최종 모델 평가 그래프
 └── README.md
@@ -179,5 +184,8 @@ python preprocessing.py images --output-dir preprocessed_data
 
 - [해커톤 발표자료](docs/hackathon-presentation.pdf)
 - [전처리 코드 분석자료](docs/preprocessing-analysis.pdf)
+- [우수상 상장](docs/excellence-award-certificate.pdf)
+- [의료 AI 과정 이수증](docs/medical-ai-course-certificate.pdf)
+- [의료 AI 해커톤 이수증](docs/hackathon-completion-certificate.pdf)
 - [SMDG-19 학습 데이터셋](https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset)
 - [실제 제출 Vercel 사이트](https://webpage-qxuaq8izu-knu-med.vercel.app/)
